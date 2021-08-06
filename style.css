@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    font-size: 65.5%;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.2rem;
+}
+button{
+    border: none;
+    outline: none;
+    font: inherit;
+    color: inherit;
+    background: none;
+}
+a{
+    color: inherit;
+}
+
+/* start of nav bar header styling */
+.navBarHeader{
+    width: 100vw;
+    height: 10vh;
+    background: #FEBADF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    position: relative;
+}
+.navBarNavigation{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.navBarNavigation li{
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.navBarNavigation li:hover{
+    border-bottom: 2px solid tomato;
+}
+/* end of nav bar header styling  */
+
+/* start of home intro section styling */
+.homeIntroMaster{
+    width: 100vw;
+    height: 90vh;
+}
+.homeIntroContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.homeIntroLeft, .homeIntroRight{
+    width: 50%;
+    height: 100%;
+    /* background: red; */
+}
+.homeIntroLeft{
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.homeIntroLeftHeading{
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+.homeIntroLeftHeading span{
+    text-transform: uppercase;
+}
+.homeIntroLeftText{
+    width: 50ch;
+}
+.homeIntroRight{
+    background: url("img/homeIntroRight.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeIntroRightBtn{
+    cursor: pointer;
+    font-size: 3rem;
+    text-transform: uppercase;
+    border-radius: 0.3rem;
+    background: rgb(249,249,249,0.3);
+    padding: 1rem;
+}
+.homeIntroRightBtn:hover{
+    color: #f9f9f9;
+    background: rgb(0,0,0,0.3);
+}
+/* end of home intro section styling */
+
+/* start of home info styling */
+
+.homeInfoMaster{
+    height: 100vh;
+    width: 100vw;
+}
+.homeInfoContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.homeInfoCardContainer{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.infoContainerHeading{
+    padding-bottom: 3rem;
+}
+.homeInfoCard{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5rem;
+}
+.infoCardCenter{
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+.infoCardHeading{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.homeInfoCard img{
+    height: 30%;
+}
+/* end of home info styling */
+
+/* start of cafe info master styling */
+.cafeInfoMaster{
+    height: 100vh;
+    width: 100vw;
+}
+.cafeInfoContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.cafeInfoLeft, .cafeInfoRight{
+    width: 100%;
+    height: 100%;
+}
+.cafeInfoLeft{
+    background: url("img/cafeInfoLeft.jpg");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+}
+
+.infoRightTop{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.infoTopHeading{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+.infoTopPara{
+    width: 65ch;
+}
+.infoRightBottom{
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+.infoBottomLeft, .infoBottomRight{
+    width: 50%;
+    height: 100%;
+}
+.infoBottomLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+}
+.infoBottomPara{
+    padding-top: 1rem;
+    width: 25ch;
+    font-family: 'Palette Mosaic', cursive;
+}
+.infoBottomRight{
+    background: url("img/cafeInfoBottomRight.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+/* end of cafe info master styling */
+
+/* start of footer styling */
+footer{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+}
+footer button:hover{
+    cursor: pointer;
+}
+/* start of footer styling */
